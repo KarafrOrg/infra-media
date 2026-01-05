@@ -18,6 +18,6 @@ spec:
       backendRefs:
         - group: ''
           kind: Service
-          name: radarr-svc
+          name: sonarr-svc
           port: {{ .Values.sonarr.service.port }}
           weight: 1
