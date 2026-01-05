@@ -19,5 +19,5 @@ spec:
         - group: ''
           kind: Service
           name: radarr-svc
-          port: {{ .Values.radarr.service.port }}
+          port: {{ .Values.sonarr.service.port }}
           weight: 1
